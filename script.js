@@ -64,6 +64,28 @@ ageList(characters, 29);
 
 // 5. Enhance your rendering functions from exercises 3 and 4 with error handling logic. Before accessing the name property of each character object, check whether the "name" property exists. If a character object is missing the name property, use console.error() to log a descriptive error message to the console, and dynamically create and display the error message in the HTML div element with id "error-messages".
 
-function charList(characters) {}
+function charList(characters) {
+  characters.forEach((character) => {
+    console.log(character.name);
+    const li = document.createElement("li");
+    li.textContent = `${character.name}`;
+    document.querySelector("#error-messages").appendChild(li);
+  });
+}
 
 // 6. Create a second array called "brokenCharacters" that intentionally contains objects with missing name properties (e.g., objects with only id and age). Pass this broken array to your error-handling functions from exercise 5. Verify that your error handling correctly identifies the missing name properties, logs appropriate error messages to the console, and displays those error messages in the HTML div element with id "broken-array-errors".
+
+function ageList(characters, threshold) {
+  characters.forEach((character) => {
+    if (character.age < threshold) {
+      console.log(character.name);
+      const li = document.createElement("li");
+      li.textContent = `${character.name}`;
+      document.querySelector("#broken-array-errors").appendChild(li);
+    }
+  });
+}
+
+ageList(characters, 29);
+
+//debugger;

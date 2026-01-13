@@ -13,13 +13,13 @@ This is a summary of the main tasks you need to complete.
   - [x] Capture a screenshot of the `node` prompt with your name.
 - [x] **Part 2: The Project**
   - [x] Download a zip folder of this repository (or fork) from github and initialize a new repo with it. When this is complete, you should be able to edit the code in your editor and then push it to github
-  - [ ] Create a `.gitignore` file.
-  - [ ] Create a folder for static assets (e.g., `public/` or `assets/`)
-  - [ ] Add your Node.js screenshot to the asset folder.
-  - [ ] Fix all bugs in the HTML, CSS, and JavaScript files.
+  - [x] Create a `.gitignore` file.
+  - [x] Create a folder for static assets (e.g., `public/` or `assets/`)
+  - [x] Add your Node.js screenshot to the asset folder.
+  - [x] Fix all bugs in the HTML, CSS, and JavaScript files.
   - [ ] Implement the tasks in the script.js file to the best of your ability using Javascript conventions
 - [ ] **Part 3: Submission**
-  - [ ] Make at least two meaningful Git commits and push them to GitHub.
+  - [x] Make at least two meaningful Git commits and push them to GitHub.
   - [ ] Deploy your fixed website using GitHub Pages.
   - [ ] Submit your repository and live GitHub Pages links to Brightspace.
 

@@ -1,4 +1,4 @@
-# To-do
+# To-do (in-class activity)
 
 ## HTML:
 
